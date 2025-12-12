@@ -1,16 +1,70 @@
-# React + Vite
+# 🌐 Multi-Step Registration Form — Glass UI (Option 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern **Glassmorphism Multi-Step Registration Form** with step validation, progress indicators, and data persistence.  
+This project is ideal for learning advanced form handling, UI/UX design, and frontend architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 🔹 Multi-Step Form Flow
+- Step 1: User Details  
+- Step 2: Contact Information  
+- Step 3: Password Setup  
+- Step 4: Review & Submit  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 Glass UI Design
+- Frosted glass effect  
+- Soft shadows  
+- Smooth rounded corners  
+- Subtle gradients  
 
-## Expanding the ESLint configuration
+### 🔹 Smart Validation
+- Field-level validation  
+- Step-by-step blocking  
+- Live error feedback  
+- Required-field handling  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Auto Save (Data Persistence)
+- Saves user input in `localStorage`  
+- Restores progress after refresh  
+
+### 🔹 Smooth Navigation
+- Next / Back buttons  
+- Prevent step skipping  
+- Progress bar  
+
+### 🔹 Clean, Scalable Architecture
+- Reusable components  
+- Utility functions  
+- Clear folder structure  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tools |
+|-------|--------|
+| Frontend | HTML / CSS / JavaScript *(or React version)* |
+| Styling | Glassmorphism + Modern CSS |
+| State Management | useState / localStorage |
+| Build Tools | Vite / CRA (if React) |
+| Deployment | GitHub Pages / Vercel |
+
+---
+
+---
+
+## ▶️ How to Run the Project
+
+### **If HTML/CSS/JS Version**
+Just open:
+
+### **If React Version**
+Run:
+```bash
+npm install
+npm run dev
+
+
+
